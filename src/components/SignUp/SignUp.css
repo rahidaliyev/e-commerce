@@ -11,12 +11,15 @@
     cursor: pointer;
     position: relative;
     right: -400px;
-    top: 30px;
+    top: -76px;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+   
 }
 
 .sign-up-person{
     position: relative;
     left: 440px;
-    top: 40px;
+    top: -66px;
     z-index: 1;
 }

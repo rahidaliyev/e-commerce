@@ -11,12 +11,12 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 30px;
+    
     color: white;
 }
 .responsive-img{
     position: relative;
-    top: 45px;
+    top: 40px;
     left:-110px;
 }
 

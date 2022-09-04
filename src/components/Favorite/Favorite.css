@@ -1,0 +1,17 @@
+.fav-container{
+    border: 1px solid black;
+    z-index: 1;
+    background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: relative;
+    right: -290px;
+    top: 25px;
+}
+
+.heart{
+    position: relative;
+    top: 10px;
+}
