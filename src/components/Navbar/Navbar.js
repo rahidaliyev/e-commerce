@@ -14,7 +14,7 @@ export default function navbar() {
         <div>
             <Favorite/>
             <Magazine/>
-<SignUp/>
+            <SignUp/>
 
         </div>
     </div>
