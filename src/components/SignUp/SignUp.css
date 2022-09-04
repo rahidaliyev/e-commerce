@@ -1,0 +1,22 @@
+.sign-up-container button{
+    background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 137px;
+    height: 50px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: -400px;
+    top: 30px;
+}
+
+.sign-up-person{
+    position: relative;
+    left: 440px;
+    top: 40px;
+    z-index: 1;
+}

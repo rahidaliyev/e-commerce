@@ -1,0 +1,19 @@
+.nav-container{
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 100px;
+    left: 135px;
+    top: 30px;
+    background: #FFFFFF;
+
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+.logo{
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
