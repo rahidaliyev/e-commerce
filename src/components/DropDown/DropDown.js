@@ -24,15 +24,15 @@ export default function DropDown() {
   }
   return (
     <div>
-        <div className='btn-container'>
-<img  src={Square} alt="square" className="circle responsive-img"/>
-            <button className='dropbtn' onClick={myFunc} style={{height:'50px',width:"271px"}}>Categories</button>
-            <div id="myDropdown" class="dropdown-content">
-    <a href="#">Products</a>
-    <a href="#">Software</a>
-    <a href="#">Fashion</a>
-  </div>
-<img src={Triangle} alt="triangle" className='triangle'/>
+         <div className='btn-container'>
+              <img  src={Square} alt="square" className="circle responsive-img"/>
+              <button className='dropbtn' onClick={myFunc} style={{height:'50px',width:"271px"}}>Categories</button>
+          <div id="myDropdown" className="dropdown-content">
+              <a href="#">Products</a>
+              <a href="#">Software</a>
+              <a href="#">Fashion</a>
+          </div>
+    <img src={Triangle} alt="triangle" className='triangle'/>
         </div>
     </div>
   )
