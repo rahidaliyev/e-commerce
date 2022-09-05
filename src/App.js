@@ -1,12 +1,10 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar'
-import Search from './components/Search/Search';
+import FirstContainer from './components/FirstContainer/FirstContainer';
+
 function App() {
   return (
     <div className="App">
-<Navbar/>
-
-<Search/>
+<FirstContainer/>
     </div>
   );
 }

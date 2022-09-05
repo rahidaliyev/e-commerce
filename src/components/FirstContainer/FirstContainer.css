@@ -1,0 +1,5 @@
+.first-section-backfround{
+    background-image: url("/src/icons/digi.svg");
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
