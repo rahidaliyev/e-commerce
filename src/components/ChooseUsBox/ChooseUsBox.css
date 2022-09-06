@@ -1,0 +1,63 @@
+.choose-box{
+ 
+width: 270px;
+height: 298px;
+
+
+
+
+background: #FFFFFF;
+
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+#choose-box-circle{
+    position: relative;
+    left: 30px;
+    top: 30px;
+   
+}
+
+.choose-box h5{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Primary color/#2B2B2B */
+
+color: #2B2B2B;
+position: relative;
+left: 15px;
+
+}
+
+.choose-box p{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Primary color/#828089 */
+
+color: #828089;
+position: relative;
+width: 240px;
+left: 15px;
+}
+
+#choose-box-img{
+    border: 1px solid black;
+    z-index: 1;
+    position: relative;
+    left: -45px;
+  
+}

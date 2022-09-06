@@ -1,11 +1,11 @@
-.first-section-background{
-    background-image: url('/src/icons/Ellipse-70.png');
-    height: 810px;
-    background-repeat: no-repeat;
-    margin-left: 62.5vw;
-    margin-top: -6.944vw;
-    /* Gradient/Linear */
-
-
-  
+.first-container{
+    display: flex;
+   
+    
+}
+#companylogo{
+    position: relative;
+    top: 221px;
+    left: 170px;
+   
 }

@@ -1,17 +1,20 @@
 .text-first-section{
     width: 589px;
     height: 349px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
-    top: 300px;
-    left: -800px;
+    top: 289px;
+    left: 180px;
+ 
+   
+   
 }
 .text-first-section h1{
 font-family: 'Josefin Sans';
-font-style: normal;
+line-height: 73px;
 font-weight: 700;
 font-size: 48.83px;
-line-height: 73px;
+
 }
 
 
