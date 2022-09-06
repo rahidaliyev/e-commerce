@@ -1,0 +1,43 @@
+.text-first-section{
+    width: 589px;
+    height: 349px;
+    border: 1px solid black;
+    position: relative;
+    top: 300px;
+    left: -800px;
+}
+.text-first-section h1{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48.83px;
+line-height: 73px;
+}
+
+
+#themze{
+    background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     background-clip: text;
+     font-style: normal;
+     font-weight: 700;
+
+
+
+}
+
+#p-first-section{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+/* Primary color/#828089 */
+
+color: #828089;
+
+}

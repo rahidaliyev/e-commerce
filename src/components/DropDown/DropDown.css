@@ -17,13 +17,13 @@
 .responsive-img{
     position: relative;
     top: 40px;
-    left:-110px;
+    left: 20px;
 }
 
 .triangle{
     position: relative;
     top:-35px;
-    right: -90px;
+   left: 220px;
 }
 
 

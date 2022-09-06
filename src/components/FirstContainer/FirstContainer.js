@@ -1,14 +1,14 @@
 import React from 'react'
-import background from "../../icons/Ellipse-70.svg"
 import "../FirstContainer/FirstContainer.css"
+import FirstSectionText from '../FirstSectionText/FirstSectionText'
 import Navbar from "../Navbar/Navbar"
-import Search from '../Search/Search'
+
 export default function FirstContainer() {
   return (
     <div>
-<div style={{backgroundImage:`url(${background})`}} className='first-section-background'>
+<div className='first-section-background'>
 <Navbar />
-<Search/>
+<FirstSectionText/>
 </div>
 
     </div>

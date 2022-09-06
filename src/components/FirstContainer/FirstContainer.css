@@ -1,5 +1,11 @@
-.first-section-backfround{
-    background-image: url("/src/icons/digi.svg");
+.first-section-background{
+    background-image: url('/src/icons/Ellipse-70.png');
+    height: 810px;
     background-repeat: no-repeat;
-    border: 1px solid black;
+    margin-left: 62.5vw;
+    margin-top: -6.944vw;
+    /* Gradient/Linear */
+
+
+  
 }
