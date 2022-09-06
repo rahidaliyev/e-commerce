@@ -1,13 +1,17 @@
 import React from 'react'
-import ChooseUsBox from '../ChooseUsBox/ChooseUsBox'
 import "../ChooseUsContainer/ChooseUsContainer.css"
+import ChooseUsBox from '../ChooseUsBox/ChooseUsBox'
+import livesupport from "../../icons/Live-Support.svg"
+import freeresource from "../../icons/Free-Resource.svg"
+import regularupdate from "../../icons/Regular-Update.svg"
+import welldoc from "../../icons/Well-Doc.svg"
 export default function ChooseUsContainer() {
   return (
     <div className='choose-us-box-container'>
-        <ChooseUsBox name='Well Documentation'/>
-        <ChooseUsBox name='Live Support'/>
-        <ChooseUsBox name='Free Resource'/>
-        <ChooseUsBox name='Regular Update'/>
+        <ChooseUsBox className="first-choose-us-box" name='Well Documentation' image={welldoc}/>
+        <ChooseUsBox name='Live Support' image={livesupport}/>
+        <ChooseUsBox name='Free Resource' image={freeresource}/>
+        <ChooseUsBox name='Regular Update' image={regularupdate}/>
 
     </div>
   )

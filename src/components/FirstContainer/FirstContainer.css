@@ -1,11 +1,25 @@
 .first-container{
-    display: flex;
-   
+   display: flex;
+   /* background-image: url("../../icons/Ellipse-70.png"); */
+   /* background-repeat: no-repeat; */
+   height: 800px;
+   /* background-position: 1000px;
+   background-position-y: -100px; */
+  
     
 }
 #companylogo{
-    position: relative;
+    position: absolute;
     top: 221px;
-    left: 170px;
+    right: 140px;
+    
    
+}
+
+#background-circle{
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    width: 45%;
+
 }

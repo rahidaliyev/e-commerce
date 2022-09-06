@@ -1,8 +1,15 @@
 .choose-us-box-container{
     display: flex;
-    gap: 30px;
+    gap: 2.083vw;
     position: relative;
-    left: -1000px;
+    justify-content: center;
     top: 900px;
+    left: -27.778vw;
   
+}
+
+.first-choose-us-box{
+   border: 1px solid black;
+
+
 }
