@@ -10,10 +10,10 @@
    
 }
 .text-first-section h1{
-font-family: 'Josefin Sans';
-line-height: 73px;
+
+line-height: 5.069vw;
 font-weight: 700;
-font-size: 48.83px;
+font-size: 3.391vw;
 
 }
 
@@ -31,11 +31,11 @@ font-size: 48.83px;
 }
 
 #p-first-section{
-    font-family: 'Josefin Sans';
+
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
-line-height: 30px;
+font-size: 1.389vw;
+line-height: 2.083vw;
 /* or 150% */
 
 

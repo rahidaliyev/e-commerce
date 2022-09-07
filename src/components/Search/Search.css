@@ -1,5 +1,5 @@
 .search-container{
-    width: 500px;
+    width: 34.722vw;
     height: 60px;
     background: #FFFFFF;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
@@ -11,10 +11,10 @@
     position: relative;
     left: 15px;
     height: 30px;
-    width: 350px;
+    width: 24.306vw;
     top: 5px;
     border: none;
-    font-family: 'Josefin Sans';
+
    font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -26,24 +26,24 @@ line-height: 24px;
 }
 
 .search-btn{
-    width: 101px;
+    width: 7.014vw;
     height: 50px;
     background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
     border-radius: 5px;
     border:none;
     font-family: 'Josefin Sans';
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.111vw;
+    line-height: 1.667vw;
     color: #FFFFFF;
     position: relative;
     top: 5px;
-    right: -15px;
+    right: -1.042vw;
 }
 
 .search-logo{
     position: relative;
-    left: 40px;
+    left: 2.778vw;
     top: 10px;
     z-index: 1;
  
