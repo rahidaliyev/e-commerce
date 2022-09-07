@@ -1,10 +1,10 @@
 .first-container{
     display: flex;
- 
-   height: 800px;
-
-   border: 1px solid black;
-   height: 1300px
+    position: relative;
+  
+   
+    border: 1px solid black;
+    height: 1300px
   
     
 }
@@ -12,7 +12,7 @@
     position: absolute;
     top: 15.347vw;
     right: 9.722vw;
-    
+    border: 1px solid black;
    
 }
 
@@ -21,5 +21,21 @@
     top: 0vw;
     right: 0vw;
     width: 45%;
+    border: 1px solid black;
 
+}
+
+#choose-us-h2{
+    position: absolute;
+    top: 900px;
+    z-index: 1;
+font-style: normal;
+font-weight: 700;
+font-size: 39.0625px;
+line-height: 59px;
+border: 1px solid black;
+height: 100px;
+width: 400px;
+left: 33.486vw;
+text-align: center;
 }

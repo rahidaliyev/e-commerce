@@ -1,12 +1,17 @@
 .choose-us-box-container{
     display: flex;
     gap: 2.083vw;
-    position: relative;
+    position: absolute;
     justify-content: center;
-    top: 900px;
-    left: -27.778vw;
+    top: 1100px;
+    left: 6.944vw;
     border: 1px solid black;
+    height: 400px;
   
 }
+
+
+
+
 
 
