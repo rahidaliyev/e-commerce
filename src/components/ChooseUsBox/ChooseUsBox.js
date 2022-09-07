@@ -1,5 +1,5 @@
 import React from 'react'
-import "../ChooseUsBox/ChooseUsBox.css"
+import "./ChooseUsBox.css"
 import ellipsepurple from "../../icons/Ellipse-58.svg"
 export default function ChooseUsBox(props) {
   return (

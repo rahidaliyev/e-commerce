@@ -16,9 +16,8 @@ export default function FirstContainer() {
 <div className='company-logo'>
 <img id='companylogo' src={companylogo} alt='companylogo'/>
 
-
-</div>
 <ChooseUsContainer/>
+</div>
 </div>
 
     </div>

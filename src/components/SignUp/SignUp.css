@@ -3,14 +3,14 @@
     border-radius: 5px;
     border: none;
     color: white;
-    width: 137px;
+    width: 9.514vw;
     height: 50px;
-    font-size: 16px;
+    font-size: 1.111vw;
     border: none;
     cursor: pointer;
     position: relative;
-    right: -400px;
-    top: -76px;
+    right: -27.778vw;
+    top: -5.278vw;
     font-family: 'Josefin Sans';
     font-weight: 600;
    
@@ -18,8 +18,8 @@
 
 .sign-up-person{
     position: relative;
-    left: 440px;
-    top: -66px;
+    left: 30.556vw;
+    top: -4.583vw;
     z-index: 1;
 }
 
