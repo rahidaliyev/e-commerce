@@ -1,0 +1,35 @@
+.featured-product-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#feature1{
+    filter: grayscale(100%);
+}
+
+#viewmmore{
+text-align: center;
+position: relative;
+top: 40px;
+}
+#viewmmore:hover{
+    cursor: pointer;
+}
+
+h1{
+    /* H2-39.06px */
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 39.0625px;
+line-height: 59px;
+/* identical to box height, or 150% */
+
+
+/* Primary color/#2B2B2B */
+
+color: #2B2B2B;
+text-align: center;
+}

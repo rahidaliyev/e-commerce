@@ -1,12 +1,102 @@
 .featured-box-container{
 width: 370px;
 height: 405px;
-
+text-align: center;
 /* Primary color/#FFFFFF */
-
 background: #FFFFFF;
-
-
+margin-right: 45px;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
 }
+
+#metn1{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Primary color/#2B2B2B */
+
+color: #2B2B2B;
+}
+
+#featured-price{
+    display: flex;
+    justify-content: center;
+    top: -60px;
+    position: relative;
+    
+}
+#featured-h3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.25px;
+    position: relative;
+    
+    left: -100px;
+
+    
+    color: #2B2B2B;
+    
+}
+#feature-image{
+    filter: brightness(1%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+.featured-box-container img:hover{
+    cursor: pointer;
+    filter: none;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+  
+}
+
+#preview{
+   
+    position: relative;
+    top: -240px;
+    left: -40px;
+    border: transparent;
+    background-color: transparent;
+    color: transparent;
+    border-radius:5px;
+    width: 140px;
+    height: 40px;
+    
+    
+}
+ #preview:hover{
+    border: 1px solid gray;
+    color: gray;
+    cursor: pointer;
+}
+
+#add_to_cart{
+position: relative;
+width: 40px;
+height: 40px;
+color: transparent;
+top: -235px;
+border: 0px;
+background-color: transparent;
+border-radius: 5px;
+}
+#add_to_cart img{
+    fill: transparent;
+}
+#add_to_cart:hover{
+    background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
+}
+
