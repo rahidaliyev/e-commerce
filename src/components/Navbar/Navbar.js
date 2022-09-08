@@ -7,16 +7,16 @@ import Favorite from '../Favorite/Favorite'
 import Magazine from '../Magazine/Magazine'
 export default function navbar() {
   return (
-    <div className='nav-container'>
-        <img className="logo" alt='logo' src={Logo}></img>
+    <header className='nav-container'>
+      <div className="logo">
+      <img  alt='logo' src={Logo}></img>
+      </div>
         <DropDown/>
-
-        <div>
-            <Favorite/>
-            <Magazine/>
-            <SignUp/>
-
-        </div>
-    </div>
+        <Favorite/>
+        <Magazine/>
+        <SignUp/> 
+    
+     
+    </header>
   )
 }

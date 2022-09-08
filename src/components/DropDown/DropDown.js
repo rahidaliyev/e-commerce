@@ -3,9 +3,10 @@ import Square from "../../icons/function-fill.svg"
 import Triangle from "../../icons/arrow-down-s-fill.svg"
 import '../DropDown/DropDown.css'
 export default function DropDown() {
-  const myFunc=()=>{
-    console.log("saalm")
+const myFunc=()=>{
     document.getElementById("myDropdown").classList.toggle("show");
+   
+  
   }
 
   
@@ -26,14 +27,15 @@ export default function DropDown() {
     <div>
          <div className='btn-container'>
               <img  src={Square} alt="square" className="circle responsive-img"/>
-              <button className='dropbtn' onClick={myFunc} style={{height:'50px',width:"271px"}}>Categories</button>
+              <button className='dropbtn' onClick={myFunc} >Categories</button>
           <div id="myDropdown" className="dropdown-content">
-              <a href="#">Products</a>
-              <a href="#">Software</a>
-              <a href="#">Fashion</a>
+              <a href="/">Products</a>
+              <a href="/">Software</a>
+              <a href="/">Fashion</a>
           </div>
     <img src={Triangle} alt="triangle" className='triangle'/>
         </div>
     </div>
+    
   )
 }

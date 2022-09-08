@@ -1,25 +1,10 @@
-.sign-up-container button{
-    background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
-    border-radius: 5px;
-    border: none;
-    color: white;
-    width: 9.514vw;
-    height: 50px;
-    font-size: 1.111vw;
-    border: none;
+
+
+
+.sign-up-container{
+    position: relative;
+}
+
+a:hover{
     cursor: pointer;
-    position: relative;
-    right: -27.778vw;
-    top: -5.278vw;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-   
 }
-
-.sign-up-person{
-    position: relative;
-    left: 30.556vw;
-    top: -4.583vw;
-    z-index: 1;
-}
-

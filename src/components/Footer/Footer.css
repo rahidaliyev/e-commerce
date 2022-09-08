@@ -1,0 +1,88 @@
+.newsletter-container{
+
+width: 380px;
+background: #FFFFFF;
+border-radius: 5px;
+border: 1px solid red;
+height: 72px;
+position: relative;
+top: 43px;
+}
+#heli-container{
+    position: relative;
+    right: -320px;
+    top: -10px;
+}
+#path{
+    border: 1px solid black;
+    position: relative;
+    left: -35px;
+    top: -10px;
+}
+
+#footer-input{
+    font-family: 'Josefin Sans';
+font-style: normal;
+
+font-size: 16px;
+line-height: 24px;
+border: none;
+
+color: #2B2B2B;
+
+mix-blend-mode: normal;
+opacity: 0.55;
+position: relative;
+top: 24px;
+left: 20px;
+}
+
+#footer-input:focus{
+outline: none;
+}
+
+.footer-first{
+background-color: #828089;
+position: relative;
+display: flex;
+padding-left: 700px;
+height: 158.34px;
+   
+  
+}
+
+.footer-first h4{
+    color: #FFFFFF;
+    padding-right: 30px;
+    top: 43px;
+    position: relative;
+ 
+}
+
+.footer-second{
+    border: 1px solid black;
+    height: 316px;
+    background-color: #2B2B2B;
+    position: relative;
+    
+}
+
+#footer-last{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+position: relative;
+top: 105px;
+color: #FFFFFF;
+}
+#footer-last a{
+    padding-right: 55px;
+}
+
+.footer-container{
+    position: relative;
+   
+}

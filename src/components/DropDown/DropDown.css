@@ -1,41 +1,43 @@
 .btn-container{
   
-    height: 50px;
+  
     width: 18.819vw;
+    position: relative;
     border: 1px solid black;
-}
+    margin-right: 24.167vw;
+  }
 .btn-container button{
     background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
     border-radius: 5px;
     border: none;
     font-family: 'Josefin Sans';
-    font-style: normal;
+
     font-weight: 600;
     font-size: 1.389vw;
-    
+
     color: white;
+    
+    
 }
 .responsive-img{
     position: relative;
-    top: 2.778vw;
+    top: 1.778vw;
     left: 1.389vw;
+    
 }
 
-.triangle{
-    position: relative;
-    top:-35px;
-   left: 15.278vw;
-}
+
 
 
 /* Dropdown Button */
 .dropbtn {
     background-color: #3498DB;
     color: white;
-    padding: 1.111vw;
+  
     font-size: 16px;
     border: none;
     cursor: pointer;
+    width: 100%;
   }
   
   /* Dropdown button on hover & focus */
@@ -45,7 +47,7 @@
   
   /* The container <div> - needed to position the dropdown content */
   .btn-container {
-    position: relative;
+   
     display: inline-block;
   }
   
