@@ -26,7 +26,7 @@ const myFunc=()=>{
   return (
     <div>
          <div className='btn-container'>
-              <img  src={Square} alt="square" className="circle responsive-img"/>
+              <img  src={Square} alt="square" className="square"/>
               <button className='dropbtn' onClick={myFunc} >Categories</button>
           <div id="myDropdown" className="dropdown-content">
               <a href="/">Products</a>
