@@ -1,6 +1,6 @@
 .third-container{
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     z-index: 1px;
     top: 1300px;
     width: 90%;
