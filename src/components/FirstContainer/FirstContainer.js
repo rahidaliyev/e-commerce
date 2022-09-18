@@ -11,7 +11,7 @@ export default function FirstContainer() {
 <img id='background-circle' src={background} alt='background-circle'/>
 
 <div className='first-container'>
-<Navbar />
+
 <FirstSectionText/>
 <div className='company-logo'>
 <img id='companylogo' src={companylogo} alt='companylogo'/>

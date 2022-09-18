@@ -12,7 +12,7 @@ export default function navbar() {
       <img  alt='logo' src={Logo}></img>
       </div>
         <DropDown/>
-        <Favorite/>
+        <Favorite />
         <Magazine/>
         <SignUp/> 
     

@@ -1,16 +1,14 @@
 .first-container{
     display: flex;
     position: relative;
-  
-   
     border: 1px solid black;
-    height: 1300px
+  
   
     
 }
 #companylogo{
     position: absolute;
-    top: 15.347vw;
+    top: 10.347vw;
     right: 9.722vw;
     border: 1px solid black;
    

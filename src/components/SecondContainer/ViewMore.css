@@ -1,0 +1,10 @@
+#view-more-boxes{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+  
+  
+   
+}

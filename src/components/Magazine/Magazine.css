@@ -4,9 +4,9 @@
     background: linear-gradient(238.66deg, #0283E9 -18.13%, #FC01CA 120.27%);
     border-radius: 5px;
     width: 3.472vw;
-    height: 50px;
+    height: 3.472vw;
     border: none;
-
+    top: 1vw;
     
     
 }
@@ -16,7 +16,8 @@
     position: relative;
     top: 0.694vw;
     left: 0.694vw;
-
+    height: 2.222vw;
+    width: 2.222vw;
 
 }
 

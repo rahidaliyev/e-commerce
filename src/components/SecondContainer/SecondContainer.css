@@ -1,7 +1,21 @@
+#outer-feature-box{
+    position: relative;
+    top: 65.278vw;
+    background: #F4F4F4;
+    padding-top: 30px;
+    padding-bottom: 10.5vw;
+
+
+}
 .featured-product-box-container{
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+  
+  
+  
+   
 }
 
 #feature1{
@@ -32,4 +46,12 @@ line-height: 59px;
 
 color: #2B2B2B;
 text-align: center;
+}
+
+#btn-view-more{
+border: 1px solid red;
+position: relative;
+top: -20px;
+
+
 }

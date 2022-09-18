@@ -6,7 +6,7 @@ export default function SignUp() {
     <div>
 <div className='sign-up-container'>
 
-<a href='/'><img src={signupbtn}/></a>
+<a href='/'><img id="sign-in" src={signupbtn} alt="sign"/></a>
 </div>
     </div>
   )
