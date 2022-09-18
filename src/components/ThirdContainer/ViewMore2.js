@@ -10,7 +10,6 @@ export default function ViewMore() {
         <FeaturedProductBox  shekil={featured3} metn1="Hazel - Clean Minimalist Multi-Pu..." metn2="" />
         <FeaturedProductBox  shekil={featured1} metn1="Monstroid2 - Multipurpose Modular..."/>
         <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
-        <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
         
       </div>
     </div>
