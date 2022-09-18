@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useState} from 'react'
+import ViewMore2 from "./ViewMore2"
 import viewmore from "../../icons/Read More Posts.svg"
 
 import FeaturedProductBox from '../FeaturedProductBox/FeaturedProductBox'
@@ -6,6 +7,8 @@ import "./ThirdContainer.css"
 import featured1 from "../../icons/fetured1.svg"
 import featured3 from "../../icons/fetured3.svg"
 export default function ThirdContainer() {
+    const [showText, setShowText] = useState(false);
+    const showMore = () => setShowText(true);
   return (
     <>
 
@@ -34,10 +37,10 @@ export default function ThirdContainer() {
         <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
         <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
         <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
-
+        {showText ? <ViewMore2 /> : null} 
 
 </div>
-<a id='btn-view-more' ><img src={viewmore}/></a>
+<a onClick={showMore} id='btn-view-more' ><img src={viewmore}/></a>
 </div>
 </div>
     </>
