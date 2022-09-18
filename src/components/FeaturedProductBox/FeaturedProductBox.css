@@ -46,22 +46,25 @@ color: #2B2B2B;
     
 }
 #feature-image{
-    filter: brightness(1%);
+    /* filter: brightness(1%);
     -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
 }
 .featured-box-container img:hover{
     cursor: pointer;
-    filter: none;
-    filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
+     filter: none;
+    -webkit-filter: grayscale(0%);
   
 }
 

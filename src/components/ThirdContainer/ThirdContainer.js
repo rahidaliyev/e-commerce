@@ -29,7 +29,7 @@ export default function ThirdContainer() {
 </nav>
 
 <div className='template-and-plugin-boxes'>
-        <FeaturedProductBox  shekil={featured1} metn1="Hazel - Clean Minimalist Multi-Pu..." metn2="" />
+        <FeaturedProductBox  shekil={featured1} metn1="Hazel - Clean Minimalist Multi-Pu..."/>
         <FeaturedProductBox  shekil={featured1} metn1="Monstroid2 - Multipurpose Modular..."/>
         <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
         <FeaturedProductBox  shekil={featured3} metn1="Techno - IT Solutions & Business ..."/>
